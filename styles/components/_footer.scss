@@ -1,0 +1,42 @@
+@import "../abstract/variaveis";
+
+#cupom-message {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  .img-cupom-message {
+    padding-bottom: 2px;
+    img {
+      max-width: 100%;
+    }
+  }
+  .text-cupom-message {
+    text-align: center;
+    h3 {
+      font-size: $font/1.5;
+      font-weight: 300;
+      margin-top: 25px;
+      margin-bottom: 20px;
+      color: $color-primary;
+    }
+    p {
+      font-size: $font / 3;
+      font-weight: 300;
+      color: $color-primary;
+      line-height: 1.25rem;
+    }
+  }
+}
+
+footer {
+  background-color: $color-extra;
+  text-align: center;
+  font-size: $font/2;
+  border-top: 2px solid $color-primary;
+  margin-top: 1rem;
+  color: $color-primary;
+  padding: 1.2rem;
+  i {
+    color: red;
+  }
+}
